@@ -14,7 +14,7 @@ $ docker build -t tor-proxy .
 ## Running the container
 
 ```
-$ docker run -d -p 8118:8118 --name tor-proxy tor-proxy
+$ docker run -d -p 18118:18118 --name tor-proxy tor-proxy
 ```
 
 ## Using the container
@@ -22,7 +22,7 @@ $ docker run -d -p 8118:8118 --name tor-proxy tor-proxy
 Point your browser to using a HTTP Proxy on <dockerhost>:8118
 You can also test your proxy with a CLI util like curl like this:
 ```
-curl -x <dockerhost>:8118 http://google.com
+curl -x <dockerhost>:18118 http://google.com
 ```
 
 ## Stopping the container
